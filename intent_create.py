@@ -3,7 +3,6 @@ import json
 from google.cloud import dialogflow
 from dotenv import load_dotenv
 import os
-#from google.cloud import storage
 
 URL = "https://dvmn.org/media/filer_public/a7/db/a7db66c0-1259-4dac-9726-2d1fa9c44f20/questions.json"
 
@@ -40,7 +39,6 @@ def create_intent(project_id, display_name, training_phrases_parts, message_text
 
 if __name__ == '__main__':
     load_dotenv()
-    #storage.Client()
     project_id = os.getenv('GOOGLE_PROJECT_ID')
 
     if not os.path.exists("data.json"):

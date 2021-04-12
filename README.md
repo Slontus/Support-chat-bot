@@ -31,8 +31,9 @@ You will receive access token in the setting of your group (API usage tab).
 Also, you will need to enable community messages.
 
 To train your DialogFlow agent you need to create intents for every specific scenario.
-You can create intents manually or use a `intent_create.py` to create them through DialofFlow API.
-In the later case you need to create `data.json` file wile in the project directory with 
+You can create intents manually or use a `intent_create.py` 
+to upload them through DialogFlow API.
+In the later case you need to create `data.json` file in the project directory with 
 the following structure:
 
 ```json
